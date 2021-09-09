@@ -6,6 +6,10 @@
     background-color: #08005E !important;
 }
 
+.card {
+    border: #fff !important;
+}
+
 /* FUENTES */
 
 .montserrat {
