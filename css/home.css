@@ -1,0 +1,162 @@
+/* Css del Home */
+
+/* NAV */
+.nav-link.active, .show>.nav-link, .nav-link:hover {
+    color: #fff !important;
+    background-color: #08005E !important;
+}
+
+/* FUENTES */
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.montserrat-light {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.arvo {
+    font-family: 'Arvo', serif !important;
+    font-weight: bold !important;
+}
+
+.font10 {
+    font-size: 10px !important;
+}
+
+.font12 {
+    font-size: 12px !important;
+    line-height: 14px !important;
+}
+
+.font14 {
+    font-size: 14px !important;
+    line-height: 14px !important;
+}
+
+.font23 {
+    font-size: 23px !important;
+    line-height: 23px !important;
+}
+
+/* COLORES */
+
+.color1 {
+    color: #08005E !important;
+}
+
+.color2 {
+    color: #616D77 !important
+}
+
+.color3 {
+    color: #FF5C8B !important;
+}
+
+.colorbg1 {
+    background-color: #08005E !important;
+    color: #FFF;
+}
+
+.colorbg2 {
+    background-color: #FF5C8B !important;
+    color: #FFF;
+}
+
+/* BARRA */
+
+.inicio {
+    width: 0% !important;
+}
+
+.final {
+    width: 90% !important;
+}
+
+.animacion {
+    transition: all 2s ease .5s;
+}
+
+/* SLIDER */
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1 !important;
+    width: 4% !important;
+    line-height: 0 !important;
+}
+
+/* MODAL */
+
+.close {
+    opacity: 1 !important;
+    width: 4% !important;
+    line-height: 2 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.uno {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;  
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;  
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #FF5C8B !important;
+}
+
+.uno:hover .overlay {
+    opacity: 0.5;
+}
+
+/* ARTÍCULOS */
+
+.mt-- {
+    margin-top: -50px !important;
+}
+
+/* FOOTER */
+
+.iframe {
+    max-width: 100% !important;
+    max-height: auto !important;
+}
+
+/* REDES */
+
+.facebook:hover, .twitter:hover, .insta:hover, .youtube:hover {
+    opacity: 1;
+}
+
+.facebook {
+    opacity: 0.7;
+    background-color: #3A5795 !important;
+    padding-right: 5px !important;
+}
+
+.twitter {
+    opacity: 0.7;
+    background-color: #5EA9DD !important;
+    padding-right: 5px !important;
+}
+
+.insta {
+    opacity: 0.7;
+    background-color: #2A5B83 !important;
+    padding-right: 7px !important;
+}
+
+.youtube {
+    opacity: 0.7;
+    background-color: #CC181E !important;
+    margin-left: -1px !important;
+}
