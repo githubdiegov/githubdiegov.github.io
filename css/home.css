@@ -1,0 +1,151 @@
+/* Css del Home */
+
+/* NAV */
+.nav-link.active, .show>.nav-link, .nav-link:hover {
+    color: #fff !important;
+    background-color: #08005E !important;
+}
+
+.card {
+    border: #fff !important;
+}
+
+/* FUENTES */
+
+.roboto-light {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.roboto-bold {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.font10 {
+    font-size: 10px !important;
+}
+
+.font12 {
+    font-size: 12px !important;
+    line-height: 14px !important;
+}
+
+.font14 {
+    font-size: 14px !important;
+    line-height: 14px !important;
+}
+
+.font16 {
+    font-size: 16px !important;
+    line-height: 16px !important;
+}
+
+.font20 {
+    font-size: 20px !important;
+    line-height: 20px !important;
+}
+
+/* COLORES */
+
+.color1 {
+    color: #08005E !important;
+}
+
+.color2 {
+    color: #616D77 !important
+}
+
+.color3 {
+    color: #E7375D !important;
+}
+
+.color4 {
+    color: #1B3F7E !important;
+}
+
+.colorbg1 {
+    background-color: #1B3F7E !important;
+    color: #FFF;
+}
+
+.colorbg2 {
+    background-color: #E7375D !important;
+    color: #FFF;
+}
+
+.colorbg3 {
+    background-color: #318CCB !important;
+    color: #FFF;
+}
+
+
+/* SLIDER */
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1 !important;
+    width: 4% !important;
+    line-height: 0 !important;
+}
+
+/* MODAL */
+
+.close {
+    opacity: 1 !important;
+    width: 4% !important;
+    line-height: 2 !important;
+    font-family: 'roboto', sans-serif !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;  
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #E7375D !important;
+}
+
+/* ARTÍCULOS */
+
+.mt-- {
+    margin-top: -50px !important;
+}
+
+.border-left {
+    border-left-color: rgb(49, 140, 203) !important;
+    border-left-width: 0.4rem !important;
+}
+
+.borderb1 {
+    border-bottom-color: rgb(49, 140, 203) !important;
+    border-bottom-width: 0.4rem !important;
+}
+
+.card-2 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+
+/* FOOTER */
+
+.iframe {
+    max-width: 100% !important;
+    max-height: auto !important;
+}
+
